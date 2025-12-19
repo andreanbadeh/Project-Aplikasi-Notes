@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- BENDERA SELALU DI KANAN ATAS -->
+    <TextView
+        android:id="@+id/txtFlag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🇮🇩"
+        android:textSize="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp" />
+
+    <!-- GAMBAR LOKASI -->
+    <ImageView
+        android:id="@+id/imgLocation"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/location" />
+
+    <!-- TITLE -->
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi Anda Saat Ini"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@id/imgLocation"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="50dp" />
+
+    <!-- NEGARA + KOTA -->
+    <TextView
+        android:id="@+id/txtCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mendeteksi lokasi..."
+        android:textSize="20sp"
+        android:layout_below="@id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="35dp"
+        android:paddingBottom="25dp" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:text="Berikutnya"
+        android:layout_below="@id/txtCountry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#7A4ADC"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

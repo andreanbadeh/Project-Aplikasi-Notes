@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <!-- Toolbar Modern -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/white"
+        app:title="Catatan"
+        app:titleTextColor="#000"
+        android:elevation="4dp"
+        android:paddingStart="12dp" />
+
+    <!-- Input Judul -->
+    <EditText
+        android:id="@+id/inputTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul Catatan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:background="@android:color/transparent"
+        android:textColor="#111"
+        android:textColorHint="#999" />
+
+    <!-- Input Isi -->
+    <EditText
+        android:id="@+id/inputContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Tulis catatan kamu di sini..."
+        android:padding="20dp"
+        android:textSize="16sp"
+        android:textColor="#333"
+        android:textColorHint="#AAA"
+        android:gravity="top"
+        android:background="@android:color/transparent" />
+
+    <!-- Tombol Simpan Modern -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan Catatan"
+        android:layout_margin="20dp"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:background="@drawable/btn_primary"
+        android:textColor="@color/white" />
+
+</LinearLayout>
