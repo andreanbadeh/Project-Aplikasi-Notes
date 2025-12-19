@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app -->
+    <string name="app_name">Notes</string>
+
+    <!-- CreateNoteActivity strings required by your Java -->
+    <string name="note_not_saved">Catatan belum disimpan!</string>
+    <string name="delete_note">Hapus Catatan</string>
+    <string name="confirm_delete">Yakin ingin menghapus catatan ini?</string>
+    <string name="delete">Hapus</string>
+    <string name="cancel">Batal</string>
+    <string name="note_deleted">Catatan dihapus</string>
+    <string name="empty_note_warning">Tidak boleh kosong!</string>
+    <string name="note_saved">Catatan tersimpan</string>
+
+    <!-- optional extras (dipakai di toolbar / hint jika diperlukan) -->
+    <string name="title_note">Catatan</string>
+    <string name="hint_title">Judul Halaman</string>
+    <string name="hint_content">Isi catatan..</string>
+    <string name="btn_save">Simpan Catatan</string>
+</resources>
