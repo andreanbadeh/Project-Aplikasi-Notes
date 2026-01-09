@@ -25,14 +25,12 @@ UAS PEMROGRAMAN MOBILE 1
 
 # UX (USER EXPERIENCE)
 Aplikasi Sudah Jadi
+
 (https://youtu.be/-4IGSxQk_aI?si=80tAxrsGLT2XBROR)
 
 Aplikasi Implementasi figma
+
 (https://youtu.be/q5vIEj5ix_0?si=j0n3bXe685si1x00)
 
-# TimeLine ClickUp
-
-
-
 # Gantt
-
+![gambar](https://github.com/andreanbadeh/Project-Aplikasi-Notes/blob/440a499be80646d9bbb08e67e0f62b75b0a6f6e8/image/Screenshot%20from%202026-01-09%2018-52-37.png)
